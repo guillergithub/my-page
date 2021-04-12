@@ -1,14 +1,19 @@
-@media (max-width: 500px) {
+@media (max-width: 450px) {
     .container-icons {
         display: none;
     }
 
+    .hello-world {
+        display: none;
+    }
+
+    
     * {
         font-size: 1rem;
     }
 
     .title-text-bg {
-        font-size: 4rem;
+        font-size: 3rem;
         opacity: 0.05;
         position: absolute;
     }
@@ -68,6 +73,7 @@
 
     .container-welcome {
         flex-direction: row;
+        /* height: 100vh; */
     }
 
     .container-who-i-am {
@@ -91,7 +97,7 @@
 
     .who-i-am {
         width: 50%;        
-        margin: auto;
+        
         font-size: 1.2rem;        
     }
 
