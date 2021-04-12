@@ -50,6 +50,35 @@
         height: 100%;        
     }    
 
+    .container-inputs-flex {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .form-contact {
+        width: 70%;
+    }
+
+    .input-name {
+        margin: 0;
+        width: 44.5%;
+        padding: 1rem;
+        border: none;
+        background: rgba(46, 45, 45, 0.823);
+        color: white;
+    }
+    
+    .input-email {
+        margin-left: 0.5rem;
+        width: 44.5%;
+        padding: 1rem;
+        border: none;
+        background: rgba(46, 45, 45, 0.823);
+        color: white;
+    }
+
     .container-photo-profile {
         display: flex;        
         width: 50%;
@@ -74,12 +103,13 @@
         height: 100%;
         padding: 10px;
         font-size: 1rem;
+        transition: all 0.4s;
     }
 
     .container-menu-list li a:hover {
         margin: 0 10px;    
         background: linear-gradient(to left, #5cc511, #0e6419); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
-        
+        transition: all 0.4s;
     }
 
     .container-welcome {
@@ -122,5 +152,9 @@
 @media (min-width: 1200px) {
     .btn-contact-me {
         display: flex
+    }
+
+    .form-contact {
+        width: 70%;
     }
 }
