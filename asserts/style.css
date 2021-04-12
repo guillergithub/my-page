@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(240, 237, 237);
+}
+
+body {
+    background: rgba(0, 0, 0, 0.982);
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;    
+    align-items: center;
+    width: 100%;
+    min-height: 65px;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.92);
+    /* box-shadow: 10px 0px 5px rgb(29, 28, 28); */
+}
+
+li {
+    list-style-type: none;  
+}
+
+a {
+    text-decoration: none;       
+}
+
+/* ======================= COMPONENTS ====================== */
+
+.container-contact-me {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-greetings-margin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.container-photo-profile {
+    width: 50%;
+    display: none;
+}
+
+.photo-profile {
+    width: 300px;    
+}
+
+.container-main {
+    display: flex;
+    align-items: flex-end;    
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;         
+}
+
+.container-menu-list {
+    position: absolute;
+    top: -700px;
+    display: none;    
+}
+
+.container-skills {
+    min-height: 100vh;
+    background: rgb(46, 45, 45);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.container-skills-icons {
+    display: flex;    
+    width: 70%;
+    justify-content: space-around;    
+    padding-bottom: 4rem;
+    
+}
+
+.container-skills-icons img {
+    opacity: 0.1;
+    transition: all 0.4s;
+}
+
+.container-skills-icons img:hover {
+    opacity: 1;
+    transition: all 0.4s;
+}
+
+.container-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background: rgb(46, 45, 45); */
+    width: 90%;
+    height: 20vh;
+    position: relative;
+}
+
+.container-welcome {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    
+}
+
+.container-who-i-am {
+    text-align: center;    
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    height: 100%;    
+}
+
+
+
+.more-info {   
+    text-align: start;
+    width: 100%;
+}
+
+.more-info p {
+    border-bottom: solid black 1px;
+    margin: 30px 0;
+    padding-bottom: 5px;
+}
+
+.title-text-bg {
+    font-size: 6rem;
+    opacity: 0.05;
+    position: absolute;
+}
+
+.title-text {
+    font-size: 2rem;
+    position: absolute;
+}
+
+
+
+/* ========================= ELEMENTS ====================== */
+
+.btn {
+    /* padding: 15px; */
+    background: linear-gradient(to left, #82f232, #16ed32); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+    width: 100px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-btn-more-info {
+    display: flex;    
+    align-items: center;
+    justify-content: center;    
+}
+
+
+.container-btn-welcome {
+    margin-top: 4rem;
+}
+
+
+
+/* ========================== HERLPERS ====================== */
+
+.bg-red {
+    background: lightcoral;
+}
+
+
+.text-1 {
+    font-size: 2.5rem;
+    margin: 4rem 0 0 0;
+}
+
+.text-2 {
+    font-size: 2rem;
+}
+.text-3 {
+    font-size: 1.4rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btn-menu {
+    background-color: transparent;       
+    cursor: pointer;
+    border: none;  
+     
+    
+}
+
+.btn-menu span {
+    display: block;
+    background-color: white;
+    width: 25px;    
+    height: 3px;
+    margin: 5px 0;
+}

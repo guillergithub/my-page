@@ -1,0 +1,107 @@
+@media (max-width: 500px) {
+    .container-icons {
+        display: none;
+    }
+
+    * {
+        font-size: 1rem;
+    }
+
+    .title-text-bg {
+        font-size: 4rem;
+        opacity: 0.05;
+        position: absolute;
+    }
+    
+    .title-text {
+        font-size: 1.2rem;
+        position: absolute;
+    }
+}
+
+@media (min-width: 768px) {
+    .btn-menu {
+        display: none;
+    }
+
+    .container-btn-welcome {
+        margin-top: 4rem;
+    }
+    
+
+    .container-greetings {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        width: 50%;
+        height: 100%;        
+    }
+
+
+    
+
+    .container-photo-profile {
+        display: flex;        
+        width: 50%;
+    }
+
+ 
+   .container-menu-list {
+       position: static;
+       display: flex;
+       align-items: center;
+       height: 100%;      
+    
+   }
+   
+   .container-menu-list li a {
+        margin: 0 10px;       
+        height: 100%;
+           
+    }
+
+    .container-menu-list li a:hover {
+        margin: 0 10px;    
+        
+    }
+
+    .container-welcome {
+        flex-direction: row;
+    }
+
+    .container-who-i-am {
+        text-align: center;    
+        width: 80%;        
+        flex-direction: row;
+        height: 100%;
+        justify-content: flex-start;        
+    }
+
+    .more-info {        
+        width: 50%;    
+        height: 100%;    
+        text-align: start;
+        padding-left: 2rem;
+    }
+
+    .title-who-i-am {
+        margin-bottom: 3rem;
+    }
+
+    .who-i-am {
+        width: 50%;        
+        margin: auto;
+        font-size: 1.2rem;        
+    }
+
+    
+
+    
+}
+
+@media (min-width: 1200px) {
+    .btn-contact-me {
+        display: flex
+    }
+}
