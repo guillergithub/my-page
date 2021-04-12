@@ -12,19 +12,20 @@
     <section class="container-main">
         <nav>
             <div>
-                <h1 class="text-logo">Guillermo S.</h1>
+                <a href="#" class="text-logo"><p class="code-symbol">&lt;/ </p> Guiller web  <p class="code-symbol"> &gt;</p></a>
+                
             </div>
 
-            <ul class="container-menu-list">
-                <li><a href="#">About me</a></li>
-                <li><a href="#">My services</a></li>
-                <li><a href="#">Contact me</a></li>
+            <ul class="container-menu-list hidden-menu" id="menu">
+                <li><a href="#about-me">About me</a></li>
+                <li><a href="#my-services">My services</a></li>
+                <li><a href="#contact-me">Contact me</a></li>
             </ul>
 
             <div class="container-icons" >
-                <a href="#"><img src="./asserts/images/github.png" alt="github-logo" style="width: 30px; height: 30px;"></a>
-                <a href="#"><img src="./asserts/images/linkedin-logo.png" alt="linkedin-logo" style="width: 30px; height: 30px;"></a>
-                <a href="#"><img src="./asserts/images/instagram-logo.png" alt="instagram-logo" style="width: 30px; height: 30px;"></a>
+                <a href="#"><img src="./asserts/images/github.png" alt="github-logo" style="width: 23px; height: 23px;"></a>
+                <a href="#"><img src="./asserts/images/linkedin-logo.png" alt="linkedin-logo" style="width: 23px; height: 23px;"></a>
+                <a href="#"><img src="./asserts/images/instagram-logo.png" alt="instagram-logo" style="width: 23px; height: 23px;"></a>
             </div>
 
             <div class="btn-menu" onclick="deploy()">
@@ -51,7 +52,7 @@
         </div>
     </section>
 
-    <section class="container-skills">  
+    <section class="container-skills" id="about-me">  
         
         <div class="container-title">
             <h1 class="title-text-bg">About me</h1>
@@ -61,9 +62,13 @@
         <div class="container-who-i-am">
             <div class="who-i-am">
                 <h3 class="text-3 title-who-i-am">Who i am?</h3>
-                <p>I am a new enthusiastic of programming lenguages and web design. Also i am a musician. </p>
-                <p>If you are having an idea let's make it real!!</p>
+                <p>I am a new enthusiastic of programming lenguages and web design. Also i am a musician, a hole life playing and creating music. </p>
+                <p>If you are having an idea... </p>
+                <p class="text-2 color-green">LET'S MAKE IT REAL </p>
             </div>
+
+
+        
 
             <div class="more-info">
                 <p>Nombre: Guillermo Salazar</p>
@@ -71,7 +76,7 @@
                 <p>Linkedin: <a href="#">Find me</a> </p> 
 
                 <div class="container-btn-more-info">
-                    <a href="#" class="btn">Contact me</a>
+                    <a href="#" class="btn">Download my CV</a>
                 </div>
             </div>            
 
@@ -91,6 +96,9 @@
             <h1 class="title-text-bg">Find me</h1>
             <h2 class="title-text">Contact me</h2>
         </div>   
+
+        
     </section>
+    <script src="./app.js"></script>
 </body>
 </html>
