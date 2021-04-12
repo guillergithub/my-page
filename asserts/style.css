@@ -41,6 +41,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
 }
 
 .container-greetings-margin {
@@ -65,7 +66,8 @@ a {
     align-items: flex-end;    
     flex-direction: column;
     justify-content: space-between;
-    min-height: 100vh;         
+    min-height: 100vh;  
+    overflow: hidden;       
 }
 
 .container-menu-list {
@@ -82,6 +84,7 @@ a {
     align-items: center;
     justify-content:center;
     position: relative;
+    overflow: hidden;
 }
 
 .container-skills-icons {
@@ -193,12 +196,13 @@ a {
 
 .text-1 {
     font-size: 2.5rem;
-    
+ 
 }
 
 .text-2 {
     font-size: 2rem;
 }
+
 .text-3 {
     font-size: 1.4rem;
 }

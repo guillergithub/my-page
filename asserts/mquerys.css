@@ -1,3 +1,10 @@
+@media (max-height: 350px) {
+    nav {
+        display: none;
+        
+    }
+}
+
 @media (max-width: 450px) {
     .container-icons {
         display: none;
@@ -41,10 +48,7 @@
         justify-content: space-between;
         width: 50%;
         height: 100%;        
-    }
-
-
-    
+    }    
 
     .container-photo-profile {
         display: flex;        
